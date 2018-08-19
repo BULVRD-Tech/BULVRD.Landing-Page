@@ -641,6 +641,10 @@ input:-webkit-autofill:focus {
 .ico-area {
     background: url('images/parallax-9.jpg') no-repeat scroll center center / cover
 }
+
+.token-area {
+    background: url('images/parallax-4.jpg') no-repeat scroll center center / cover
+}
 /***
 *Price-area
 ***/
