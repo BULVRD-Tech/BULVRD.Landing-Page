@@ -180,7 +180,7 @@ input:-webkit-autofill:focus {
 }
 
 .gray-bg {
-    background-color: #f2fefe;
+    background-color: #bfefef;
 }
 
 /**
@@ -534,14 +534,11 @@ input:-webkit-autofill:focus {
 ***/
 
 .single-team {
-    background-color: #ffffff;
+    background-color: #e5fcfc;
     border-radius: 5px;
     overflow: hidden;
-    color: #515656;
     text-align: center;
     position: relative;
-    -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
     -webkit-transform: translateY(0);
     transform: translateY(0);
     -webkit-transition: 0.3s;
@@ -587,7 +584,7 @@ input:-webkit-autofill:focus {
     left: 0;
     width: 100%;
     padding: 23px 10px;
-    background-color: #ffffff;
+    background-color: #e5fcfc;
 }
 
 .single-team:hover .social-menu {
