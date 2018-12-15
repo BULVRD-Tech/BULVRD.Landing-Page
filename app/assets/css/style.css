@@ -285,7 +285,7 @@ a:hover {
     top:0; 
     left:0;
     width: 100%; 
-    background-color: #000;
+    background-color: #041358;
     padding: 0px;
 }
 .logo {
@@ -536,8 +536,7 @@ a:hover {
     padding-top: 20px;
 }
 .client-pic {
-    padding: 0em 2em;
-    max-width: 360px;
+    max-width: 150px;
     margin: 0 auto;
 }
 .client-pic img {
@@ -559,11 +558,10 @@ a:hover {
     border-color: #fff;
 }
 p.client-name {
-    float: right;
-    font-size: 30px;
+    font-size: 18px;
+    padding-left: 136px;
     color: #fff;
     display: inline-block;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 5px;
 }
 
@@ -739,7 +737,7 @@ input:-moz-placeholder, textarea:-moz-placeholder {
 
 
 #footer {
-    background: #000;
+    background: #041358;
     padding: 20px 0px 22px 0px;
 }
 .footer-logo {
