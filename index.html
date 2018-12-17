@@ -1,10 +1,13 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <!-- Title -->
     <title>BULVRD</title>
     <meta name="theme-color" content="#11A1B8">
@@ -33,24 +36,13 @@
 <meta name="msapplication-TileColor" content="#11A1B8">
  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 
-    <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119141817-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119141817-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -63,889 +55,767 @@
 <meta name="yandex-verification" content="b8c0d69a1bd704a4" />
 </head>
 
-<body data-spy="scroll" data-target="#primary-menu">
-
-    <div class="preloader">
-        <div class="sk-folding-cube">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
-        </div>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
     </div>
-    <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
-        <div class="container">
-            <!--Logo-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand logo">
-                    <img src="images/ic_icon_small.png" alt="">
-                    <!-- <h2>BULVRD app</h2> -->
-                </a>
-            </div>
-            <!--Logo/-->
-            <nav class="collapse navbar-collapse" id="primary-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#home-page">Home</a></li>
-                    <li><a href="#service-page">About</a></li>
-                    <!-- <li><a href="#feature-page">Features</a></li> -->
-                    <li><a href="#price-page">App</a></li>
-                    <!-- <li><a href="#team-page">Team</a></li> -->
-                    <li><a href="#faq-page">FAQ</a></li>
-                    <!-- <li><a href="#blog-page">Blog</a></li> -->
-                    <li><a href="#contact-page">Find Us</a></li>
-                    <li><a href="https://bulvrdapp.com/roadmap/index.html">Roadmap</a></li>
-                    <li><a href="https://bulvrdapp.com/advertise/index.html">Advertise</a></li>
-                    <li><a href="https://github.com/BULVRD-Tech/BULVRD.Whitepaper/wiki">Whitepaper</a></li>
-                    <li><a href="https://github.com/BULVRD-Tech/BULVRD.Whitepaper/wiki/BULVRD-Token-and-Sale">BULVRD Token</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <!--Mainmenu-area/-->
 
-
-
-    <!--Header-area-->
-    <header class="header-area overlay full-height relative v-center" id="home-page">
-        <div class="absolute anlge-bg">
-            <div id="particles-js"></div>
-        </div>
-        <div class="container">
-            <div class="row v-center">
-                <div class="col-xs-12 col-md-7 header-text">
-                    <!-- <img src="images/ic_icon.png" alt=""> -->
-                    <h2>BULVRD : Blockchain meets the road</h2>
-                    Earn Ethereum tokens (BLVD) while contributing to the
-                    <br> global community-based traffic and navigation ecosystem. 
-                    </br>Interactive experiences via 3D Maps and Augmented Reality.
-
-                    </br></br> On device and cloud based Machine Learning enables
-                    <br> real time world scanning to create an automatic reporting system, 
-                    <br>predictive model data derivatives, and street level mapping. 
-
-                    <!-- </br></br> BULVRD currently leverages technology from Ethereum and IPFS to create decentralized geospatial community experiences and reward systems. Future expansions into Proof of Location will enable a new level of hyper accurate data sets.</br> -->
-                    
-                    <br><br>
-                    <!-- <a href="https://youtu.be/koqLapH7NcU" class="button white">Watch video</a> -->
-                    <a href="#price-page" class="button white">Download Free App</a>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">blvd</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshots</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Get Started</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Find Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://bulvrdapp.com/roadmap/index.html">Roadmap</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://github.com/BULVRD-Tech/BULVRD.Whitepaper/wiki">Whitepaper</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="https://bulvrdapp.com/app?ref=freeapp">Free App</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-                <div class="hidden-xs hidden-sm col-md-5 text-right">
-                    </br>
-                    <iframe width="450" height="300"
-                        src="https://www.youtube.com/embed/XjFJ4_J4aLE">
-                    </iframe>
-                    <!-- <img src="images/ic_icon.png" alt=""> -->
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="https://bulvrdapp.com/app?ref=freeapp">Free App</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <!--Header-area/-->
+    <!-- ***** Header Area End ***** -->
 
-    <section class="gray-bg section-padding" id="media">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="box">
-                                <img src="images/ic_tc.png" alt="" href="https://techcrunch.com/2018/09/07/consensys-details-the-first-cohort-of-companies-to-enter-its-new-accelerator-tachyon/">
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                            <div class="box">
-                                    <img src="images/ic_tach.png" alt="" href="https://tachyoncv.vc/">
-                            </div>
-                        </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="box">
-                                <img src="images/ic_consensys.png" alt="" href="https://new.consensys.net/">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>BULVRD</h2>
+                        <h3>BLVD</h3>
+                        <p>Tokenized Global Community Mapping</br> and Road Reporting Ecosystem </br></br>Earn crypto tokens as you drive!</p>
 
-    <section class="ico-area overlay section-padding" id="ico-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Token Sale</h2>
-                        <h2 id="demo">-</h2>
-                        <p>Token Sale details to be announced soon</p>
-                        <a href="https://github.com/BULVRD-Tech/BULVRD.Whitepaper/wiki/BULVRD-Token-and-Sale" class="button white">Token Details</a>
                     </div>
-                    <div id="mailchimp">
-                        <form action="https://bulvrdapp.us18.list-manage.com/subscribe/post?u=6b2267dc3034ceb987cc21ac9&amp;id=ab90bdfe5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL"></label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <div style="position: absolute; left: -2000px;" aria-hidden="true"><input type="text" name="b_d9d588b4da43b3a74f8fc6108_9f20ce517e" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="BULVRD Token Updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="https://bulvrdapp.com/app?ref=installapp" >
+                            <!-- <input type="email" class="form-control email" placeholder="name@company.com"> -->
+                            <input type="submit" class="submit" value="Install App">
                         </form>
-                        </div>
+                        <!-- Form End -->
+                    </div>
                 </div>
             </div>
-            </div>
+            
         </div>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-special.png" alt="">
+        </div>
+
     </section>
 
-    <!--Feature-area-->
-    <section class="gray-bg section-padding" id="service-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-1.png" alt="">
-                        </div>
-                        <h4>Real Time</h4>
-                        <p>See real time reports via 3D maps + Augmented Reality, or feeds for police, hazards, traffic, events, and more. Live turn by turn navigation on your routes. Available directly in your vehicle via Apple CarPlay.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-3.png" alt="">
-                        </div>
-                        <h4>Earn Tokens</h4>
-                        <p>Earn BULVRD Ethereum ERC-20 tokens by driving, making reports, and sharing with the community. Use your tokens via user to user thanks, or airdrop tokens on a route to encourage other users to make reports. The BULVRD token is the backbone to the ecosystem, with future uses for in-app subscriptions, digital assets, and advertising.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="box">
-                        <div class="box-icon">
-                            <img src="images/service-icon-2.png" alt="">
-                        </div>
-                        <h4>Advertise</h4>
-                        <p>Expand your businesses presence with hyper localized advertising and opportunities to connect with the global BULVRD community. Real time geospatial engagements on 3D maps and via Augmented Reality open all the avenues to promote your brand and offerings.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Feature-area/-->
-
-    <section class="price-area overlay section-padding" id="vision-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>BULVRD Vision</h2>
-                        <p>Our hyper accurate GPS algorithms enable a 1-3m accuracy, meaning lane level location readings. This helps provide a seamless experience for the user, helping with map visuals and navigation directions.</p>
-                    </br>
-                    <p>With our Augmented Reality + Machine Learning Technology, we will be able to build towards sub 1m accuracy. Further data insights will allow for per lane traffic congestion, improved report locations, and accurate data sets for autonomous vehicles.</p>
-                        <!-- <a href="https://bulvrdapp.com/app" class="button white">Free App Download</a> -->
-                        <!-- <a href='https://play.google.com/store/apps/details?id=com.cartoaware.blvrd&utm_source=BULVRD_Landing&utm_campaign=Beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a> -->
-                        <!-- </br> -->
-                        <!-- <a href=''><img alt='Get it on the Apple App Store' src='images/ic_app_store_soon.png' /></a> -->
-                        <!-- <h2><br></h2>
-                        <div id="mailchimp">
-                            <form action="https://bulvrdapp.us19.list-manage.com/subscribe/post?u=c1505ae80cecd7bbce01b80af&amp;id=3cefb0e505" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <label for="mce-EMAIL"></label>
-                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                    <div style="position: absolute; left: -2000px;" aria-hidden="true"><input type="text" name="b_d9d588b4da43b3a74f8fc6108_9f20ce517e" tabindex="-1" value=""></div>
-                                    <div class="clear"><input type="submit" value="Join iOS TestFlight Beta" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                </div>
-                            </form>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="angle-bg sky-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Real Time</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Community reports for police, traffic, hazards, closures, chats, and more. Turn by turn navigation to get you to your destinations. BUVLRD is available without restrictions across the globe.</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#price-page" class="button">Join Now</a>
-                                        </div>
-                                    </div>
-                                        <div  data-animation="animated fadeInRight">
-                                            <img src="images/iso_drive.png" width="500" height="500" alt="">
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Interactive</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Bringing decentralized geospatial data to life via 3D maps, Augmented Reality, and location based feeds. Machine Learning + Augmented Reality systems will enable new ways to earn BULVRD tokens, and provide data points never available before.</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#price-page" class="button">Join Now</a>
-                                        </div>
-                                    </div>
-                                        <div  data-animation="animated fadeInRight">
-                                            <img src="images/iso_city.png" width="500" height="500" alt="">
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Earn</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Earn Ethereum ERC-20 based tokens which are compatible with most popular exchanges. BULVRD tokens will be the focal point of the community. 
-                                                BULVRD tokens are minted as the community contributes to the ecosystem. Token uses include in-app 'Premium' experiences, user to user gifts, buy in on the BULVRD advertising portal, and access to BULVRD data sets.</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="#" class="button">Learn more</a>
-                                        </div>
-                                    </div>
-                                        <div  data-animation="animated fadeInRight">
-                                            <img src="images/iso_earn.png" width="500" height="500" alt="">
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="item row">
-                                <div class="v-center">
-                                    <div class="col-xs-12 col-md-6">
-                                        <div class="caption-title" data-animation="animated fadeInUp">
-                                            <h2>Advertise</h2>
-                                        </div>
-                                        <div class="caption-desc" data-animation="animated fadeInUp">
-                                            <p>Use BULVRD to gain exposure for your business or brand. Tap into our hyper local ad system with placements on 3D maps, Augmented Reality views, and local feeds. Including automation via iBeacons and geofences.</p>
-                                        </div>
-                                        <div class="caption-button" data-animation="animated fadeInUp">
-                                            <a href="https://bulvrdapp.com/advertise/index.html" class="button">Learn more</a>
-                                        </div>
-                                    </div>
-                                        <div  data-animation="animated fadeInRight">
-                                            <img src="images/iso_home.png" width="500" height="500" alt="">
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators caption-indector">
-                            <li data-target="#caption_slide" data-slide-to="0" class="active">
-                                <strong>Real Time</strong>
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="1">
-                                <strong>Interactive</strong>
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="2">
-                                <strong>Earn</strong>
-                            </li>
-                            <li data-target="#caption_slide" data-slide-to="3">
-                                <strong>Advertise</strong>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="price-area overlay section-padding" id="price-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>App</h2>
-                        <p>BULVRD is available for Android 5.0+ and iOS 9.0+ devices</p>
-                        <a href="https://bulvrdapp.com/app" class="button white">Free App Download</a>
-                        <!-- <a href='https://play.google.com/store/apps/details?id=com.cartoaware.blvrd&utm_source=BULVRD_Landing&utm_campaign=Beta&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' /></a> -->
-                        <!-- </br> -->
-                        <!-- <a href=''><img alt='Get it on the Apple App Store' src='images/ic_app_store_soon.png' /></a> -->
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section class="token-area overlay section-padding" id="ico-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                        <div class="page-title">
-                            <h2>Token Distribution</h2>
-                            <div id="chartContainer" style="height: 500px; width: 100%;"></div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section> -->
-
-    <section class="section-padding gray-bg" id="team-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>-</h2>
-                        <a href="https://angel.co/bulvrdapp/jobs">Explore our Open Positions</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_david_hodge.png" alt="">
-                        </div> 
-                        <h4>David Hodge</h4>
-                        <h6>Founder / CEO</h6>
-                        <ul class="social-menu">
-                            <li><a href="https://twitter.com/davidhodge229"><i class="ti-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/david-hodge-a1a46648/"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/davidhodge229/"><i class="ti-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_launcher.png" alt="">
-                        </div> 
-                        <h4>Michael H</h4>
-                        <h6>QA / Support</h6>
-                        <!-- <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul> -->
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_joe.png" alt="">
-                        </div> 
-                        <h4>Joe C</h4>
-                        <h6>Software Engineer</h6>
-                        <!-- <ul class="social-menu">
-                            <li><a href="#"><i class="ti-facebook"></i></a></li>
-                            <li><a href="#"><i class="ti-twitter"></i></a></li>
-                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                        </ul> -->
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_launcher.png" alt="">
-                        </div> 
-                        <h4>TBA</h4>
-                        <h6>Join Us!</h6>
-                        <ul class="social-menu">
-                            <li><a href="https://angel.co/bulvrdapp/jobs"><i class="ti-link"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-padding gray-bg" id="advisors-page">
-        <div class="container">
-            <!-- <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Advisors</h2>
-                        <a href="https://angel.co/bulvrdapp/jobs">Explore our Open Roles</a>
-                    </div>
-                </div>
-            </div> -->
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_consensys.png" alt="">
-                        </div> 
-                        <h4>ConsenSys Ventures</h4>
-                        <h6>Blockchain</h6>
-                        <ul class="social-menu">
-                            <li><a href="https://"><i class="ti-link"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_tach.png" alt="">
-                        </div> 
-                        <h4>Tachyon</h4> 
-                        <h6>Accelerator</h6>
-                        <ul class="social-menu">
-                            <li><a href="https://tachyoncv.vc/"><i class="ti-link"></i></a></li>
-                        </ul>
-                   </div> 
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team">
-                        <div class="team-photo">
-                            <img src="images/ic_benjamin_burns.png" alt="">
-                        </div> 
-                        <h4>Advisor: Ben Burns</h4>
-                        <h6>Head of Blockchain, Truffle</h6>
-                        <ul class="social-menu"> 
-                            <li><a href="https://github.com/benjamincburns"><i class="ti-link"></i></a></li>
-                        </ul> 
-                    </div> 
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <div class="single-team"> 
-                        <div class="team-photo">
-                            <img src="images/ic_tj_davidson.png" alt="">
-                        </div> 
-                       <h4>Advisor: TJ Davidson</h4>
-                        <h6>Youtube</h6>
-                        <ul class="social-menu">
-                            <li><a href="https://www.youtube.com/user/TiffanysVLogs/channels"><i class="ti-link"></i></a></li>
-                        </ul>
-                   </div>
-                </div>
-                </div> 
-           </div>
-        </div>
-    </section> 
-
-
-
-    <!-- <section class="testimonial-area section-padding gray-bg overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Client says</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <div class="testimonials">
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-1.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-2.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-3.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-4.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-5.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                        <div class="testimonial">
-                            <div class="testimonial-photo">
-                                <img src="images/avatar-small-6.png" alt="">
-                            </div>
-                            <h3>AR Rahman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-
-
-
-    <section class="gray-bg section-padding" id="faq-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                    <div class="page-title">
-                        <h2>Frequently Asked Questions</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">How do I earn BULVRD Tokens?</a>
-                            </h4>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <p>Users can earn BULVRD tokens by driving, making road reports (police, hazards, closures, etc), and with overall general community contributions. </p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">How can I use BULVRD Tokens?</a>
-                            </h4>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <p>BULVRD tokens will be used to 'thank' other users, 'airdrop' tokens to encourage other users to drive routes, in-app subscription to unlock more features, purchase BULVRD ERC-721 assets, geospatial advertising platform, and more as the ecosystem is built out.</p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Do I need a wallet?</a>
-                            </h4>
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <p>You can enter your existing Ethereum / ERC-20 supported wallet address, or the apps will create a new one for you when you first open the app..</p>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">How often do payouts happen?</a>
-                            </h4>
-                            <div id="collapse4" class="panel-collapse collapse">
-                                <p>BULVRD utilizes state channels and a central oracle to track user rewards. Once a set threshold has been set, a user can claim their tokens. As of this writing, BULVRD will cover transaction cost to grant tokens to users.</p>
-                            </div>
-                        </div>
-                       <!--  <div class="panel">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
-                            </h4>
-                            <div id="collapse4" class="panel-collapse collapse">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-   <!--  <section class="section-padding overlay client-area overlay" id="client-page">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xs-12">
-                    <div class="clients">
-                        <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/themeforest.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/docean.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/actividen.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/photodone.gif" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/videgub.gif" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
- -->
-
-    <!-- <section class="section-padding gray-bg" id="blog-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small1.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small2.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-4">
-                    <div class="single-blog">
-                        <div class="blog-photo">
-                            <img src="images/small3.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
-                            <ul class="blog-meta">
-                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
-                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
- -->
-
-
-
-
-    <footer class="footer-area relative sky-bg" id="contact-page">
-        <div class="absolute footer-bg"></div>
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
-                        <div class="page-title">
-                            <h2>Find us</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-4">
-                        <address class="side-icon-boxes">
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/ic_icon.png" alt="">
-                                </div>
-                                <p><strong>Group Chats: </strong>
-                                    <a href="https://t.me/joinchat/AAAAAEmqosE6vp9mr7hdJA">Telegram</a><br/>
-                                    <a href="https://discord.gg/F9F3cNz">Discord</a>
-                                </p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
-                                </div>
-                                <p><strong>E-mail: </strong>
-                                    <a href="mailto:team@bulvrdapp.com">team@BULVRDapp.com</a><br/>
-                                </p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="col-xs-12 col-md-4">
-                         <div id="mailchimp">
-                        <form action="https://bulvrdapp.us18.list-manage.com/subscribe/post?u=6b2267dc3034ceb987cc21ac9&amp;id=ab90bdfe5e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                                <label for="mce-EMAIL"></label>
-                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                                <div style="position: absolute; left: -2000px;" aria-hidden="true"><input type="text" name="b_d9d588b4da43b3a74f8fc6108_9f20ce517e" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                            </div>
-                        </form>
-
-                        <ul class="social-menu">
-                            <li><a href="https://twitter.com/bulvrdapp"><i class="ti-twitter"></i></a></li>
-                            <li><a href="https://github.com/BULVRD-Tech"><i class="ti-github"></i></a></li>
-                            <li><a href="https://www.facebook.com/BULVRDapp-1671041776276331/"><i class="ti-facebook"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCZDSJfrwWPXGXBjupbvXyDA/featured"><i class="ti-youtube"></i></a></li>
-                            <li><a href="https://www.reddit.com/r/BULVRDapp/"><i class="ti-reddit"></i></a></li>
-                            <li><a href="https://instagram.com/bulvrdapp"><i class="ti-instagram"></i></a></li>
-                            <!-- <li><a href="https://discord.gg/F9F3cNz"><i class="ti-comment"></i></a></li> -->
-                        </ul>
-                        </div>
-                    </div>
-                
-                <div class="col-xs-12 col-md-4">
-                        <address class="side-icon-boxes">
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
-                                </div>
-                                <p><strong>Address: </strong> Mosaic District <br/> Merrifield, VA <br />USA</p>
-                            </div>
-                            <div class="side-icon-box">
-                                <div class="side-icon">
-                                    <img src="images/phone-arrow.png" alt="">
-                                </div>
-                                <p><strong>Telephone: </strong>
-                                    <a href="tel:+14342499684">+1 434 249 9684</a> 
-                                </p>
-                            </div>
-                        </address>
-                    </div>
-                </div>
-            </div>
-        </div>
     
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <p>&copy;Copyright 2018. A <a href="https://bulvrdapp.com">BULVRD</a> Product</p>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_100" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>You will</h2>
+                        <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-car" aria-hidden="true"></i>
+                        </div>
+                        <h4>Drive</h4>
+                        <p>Simply install the BULVRD Drive app and start driving! Featuring real time road reports like traffic, police, and hazards. Explore the world via futuristic 3d maps, Augmented Reality, and Apple CarPlay. Traffic aware turn by turn navigation will get you to your destination on time!</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-plus" aria-hidden="true"></i>
+                        </div>
+                        <h4>Earn</h4>
+                        <p>By simply using BULVRD while driving you will begin to earn tokens. Make road reports and you will earn more once they are validated. Use our Augmented Reality experience for even higher earnings.</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-shopping-cart-full" aria-hidden="true"></i>
+                        </div>
+                        <h4>Use</h4>
+                        <p>Use your tokens by dropping on your routes to work to help encourage reporting, helping you find the quickest way. Stake your tokens to place NFTs (Like Cryptokitties) on the map. You can also use an old phone laying around to run as a BULVRD Node for passive token earnings!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Special Description Area -->
+        <div class="special_description_area mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>BULVRD Drive</h2>
+                            <p>Install the BULVRD Drive app and start earning on the drives you're already making! Available for free on Android and iOS Devices.</p>
+                            <div class="app-download-area">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Google Store Btn -->
+                                    <a href="https://play.google.com/store/apps/details?id=com.cartoaware.blvrd&utm_source=BULVRD_APP&utm_campaign=App&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                                        <i class="fa fa-android"></i>
+                                        <p class="mb-0"><span>available on</span> Google Play</p>
+                                    </a>
+                                </div>
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                    <!-- Apple Store Btn -->
+                                    <a href="https://testflight.apple.com/join/tQxoMlir">
+                                        <i class="fa fa-apple"></i>
+                                        <p class="mb-0"><span>available on</span> App Store</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="special_description_area mt-150">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                            <div class="special_description_content">
+                                <h2>BULVRD Node</h2>
+                                <p>Once you've earned enough tokens, you can run a BULVRD Node using the old smartphone you have laying around! This helps support the ecosystem and gives you a passive way to earn tokens. Available for free on Android and coming soon to iOS Devices.</p>
+                                <div class="app-download-area">
+                                    <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                        <!-- Google Store Btn -->
+                                        <a href="https://bulvrdapp.com/node?ref=nodeapp">
+                                            <i class="fa fa-android"></i>
+                                            <p class="mb-0"><span>available on</span> Google Play</p>
+                                        </a>
+                                    </div>
+                                    <!-- <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                        <a href="#">
+                                            <i class="fa fa-apple"></i>
+                                            <p class="mb-0"><span>available on</span> App Store</p>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                                <div class="special_description_img">
+                                    <img src="img/bg-img/special-2.png" alt="">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>The Ecosystem</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-link" aria-hidden="true"></i>
+                        <h5>Ethereum</h5>
+                        <p>BULVRD leverages the Ethereum blockchain with Smart Contracts to openly manage rewards, and create new data sets via IPFS. Meaning global availability without location or platform limitations.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-world" aria-hidden="true"></i>
+                        <h5>3D Maps</h5>
+                        <p>Tapping into 3D mapping, we are able to provide a new detailed navigation experience. With a map focused on driving.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-eye" aria-hidden="true"></i>
+                        <h5>Augmented Reality</h5>
+                        <p>All new geospatial Augmented Reality experiences give community members an all new way to interact with the world around them, including automation via Machine Learning and AI.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-target" aria-hidden="true"></i>
+                        <h5>Hyper Accurate</h5>
+                        <p>Our GPS/location algorithms enable 1-3m accuracy, meaning lane level detection. This helps us let you know when you're in the wrong lane for your next navigation turn, and make community reports more accurate.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-crown" aria-hidden="true"></i>
+                        <h5>NFTs</h5>
+                        <p>We are giving non-fungible tokens an all new use. You can stake your NFT on the map to show the world, or use it as a new marketing avenue when selling it. You will also be able to earn custom BULVRD digital collectibles for contributions in the ecosystem.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-pulse" aria-hidden="true"></i>
+                        <h5>Visibility</h5>
+                        <p>The BULVRD reward feed is posted to IPFS building transparency into the ecosystem. The token economics are baked into the Smart Contract, as well as the state for each address earnings. Making it possible to audit at any time.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
+
+    <!-- ***** Video Area Start ***** -->
+    <div class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start -->
+                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/embed/XjFJ4_J4aLE"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Video Area End ***** -->
+
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                            <h3><span class="counter">30</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-wifi"></i>
+                            <p>Ways to <br> Earn</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">23</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-trophy"></i>
+                            <p>Billion Tokens <br> to Earn</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">4</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-checkmark"></i>
+                            <p>Free Apps <br>Available</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">0</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-planet"></i>
+                            <p>Location <br>Restrictions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2></h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- App Screenshots Slides  -->
+                    <div class="app_screenshots_slides owl-carousel">
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-1.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-2.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-3.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-4.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-5.png" alt="">
+                        </div>
+                        <div class="single-shot">
+                            <img src="img/scr-img/screenshot-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text  -->
+                    <div class="section-heading text-center">
+                        <h2>Getting Started</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>BULVRD Drive</h5>
+                        </div>
+                        <div class="package-description">
+                            <p>Free App</p>
+                            <p>Drive - Earn - User</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="https://bulvrdapp.com/app?ref=getstarted">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Leveled Up</h5>
+                        </div>
+                        <div class="package-description">
+                            <p>Earn 200 tokens to begin staking</p>
+                            <p>Stake NFT assets on map</p>
+                            <p>Now qualify to run a BULVRD Node</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="https://bulvrdapp.com/app?ref=getstarted">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>BULVRD Node</h5>
+                        </div>
+                        <div class="package-description">
+                            <p>Setup an old smartphone</p>
+                            <p>Install BULVRD Node app</p>
+                            <p>Submit setup for community approval</p>
+                            <p>Starting earning passive tokens for running node</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="https://bulvrdapp.com/app?ref=getstarted">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan active text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Use Tokens</h5>
+                        </div>
+                        <div class="package-description">
+                            <p>Location Token Drops</p>
+                            <p>Stake NFTs</p>
+                            <p>Stake as Node operator</p>
+                            <p>Location based map Advertising</p>
+                            <p>In-App Pro Subscription</p>
+                            <p>BULVRD Digital Collectibles</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="https://bulvrdapp.com/app?ref=getstarted">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plane Area End ***** -->
+
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Our Team</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/ic_david_hodge.png" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="https://twitter.com/davidhodge229"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/davidhodge229/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://github.com/dhodge229"> <i class="fa fa-github" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/in/david-hodge-a1a46648/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>David H</h4>
+                            <p>Founder / CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                        <div class="single-team-member">
+                            <div class="member-image">
+                                <img src="img/team-img/ic_joe.png" alt="">
+                                <div class="team-hover-effects">
+                                    <div class="team-social-icon">
+                                        <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member-text">
+                                <h4>Joe C</h4>
+                                <p>Software Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/ic_launcher.png" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Michael H</h4>
+                            <p>QA / Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/ic_launcher.png" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="https://angel.co/bulvrdapp/jobs"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>TBA</h4>
+                            <p>Join Us!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Advisors -->
+                <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="single-team-member">
+                                <div class="member-image">
+                                    <img src="img/team-img/ic_consensys.png" alt="">
+                                    <div class="team-hover-effects">
+                                        <div class="team-social-icon">
+                                            <a href="https://consensys.vc/"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-text">
+                                    <h4>ConsenSys Ventures</h4>
+                                    <p>Blockchain</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="single-team-member">
+                                <div class="member-image">
+                                    <img src="img/team-img/ic_tach.png" alt="">
+                                    <div class="team-hover-effects">
+                                        <div class="team-social-icon">
+                                            <a href="https://tachyoncv.vc/"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-text">
+                                    <h4>Tachyon</h4>
+                                    <p>Accelerator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="single-team-member">
+                                <div class="member-image">
+                                    <img src="img/team-img/ic_benjamin_burns.png" alt="">
+                                    <div class="team-hover-effects">
+                                        <div class="team-social-icon">
+                                            <a href="https://github.com/benjamincburns"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-text">
+                                    <h4>Advisor: Benjamin Burns</h4>
+                                    <p>Head of Blockchain, Truffle</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="single-team-member">
+                                <div class="member-image">
+                                    <img src="img/team-img/ic_tj_davidson.png" alt="">
+                                    <div class="team-hover-effects">
+                                        <div class="team-social-icon">
+                                            <a href="https://www.youtube.com/user/TiffanysVLogs/channels"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="member-text">
+                                    <h4>Advisor:  TJ Davidson</h4>
+                                    <p>Youtube</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- other support -->
+                    <div class="row">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="single-team-member">
+                                    <div class="member-image">
+                                        <img src="img/team-img/ic_mdb.png" alt="">
+                                        <div class="team-hover-effects">
+                                            <div class="team-social-icon">
+                                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-text">
+                                        <h4>mongoDB</h4>
+                                        <p>Accelerator</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="single-team-member">
+                                    <div class="member-image">
+                                        <img src="img/team-img/ic_aws.png" alt="">
+                                        <div class="team-hover-effects">
+                                            <div class="team-social-icon">
+                                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-text">
+                                        <h4>AWS</h4>
+                                        <p>Activate</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="single-team-member">
+                                    <div class="member-image">
+                                        <img src="img/team-img/ic_fbs.png" alt="">
+                                        <div class="team-hover-effects">
+                                            <div class="team-social-icon">
+                                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-text">
+                                        <h4>FBStart</h4>
+                                        <p>Accelerate</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <div class="single-team-member">
+                                    <div class="member-image">
+                                        <img src="img/team-img/ic_gcp.png" alt="">
+                                        <div class="team-hover-effects">
+                                            <div class="team-social-icon">
+                                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="member-text">
+                                        <h4>GCP</h4>
+                                        <p>For Startups</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
+    <section id="contact" ></section>
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>BULVRD</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="https://www.facebook.com/BULVRDapp-1671041776276331/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/bulvrdapp"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/bulvrdapp"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://github.com/BULVRD-Tech"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCZDSJfrwWPXGXBjupbvXyDA/featured"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://www.reddit.com/r/BULVRDapp/"><i class="fa fa-reddit" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <!-- <li><a href="#">Terms &amp; Conditions</a></li> -->
+                    <!-- <li><a href="#">Privacy Policy</a></li> -->
+                    <li><a href="mailto:team@bulvrdapp.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2018 BULVRD Inc</p>
         </div>
     </footer>
+    <!-- ***** Footer Area Start ***** -->
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("february 25, 2019 00:01:01").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
-<script>
-        window.onload = function() {
-        
-        var chart = new CanvasJS.Chart("chartContainer", {
-            animationEnabled: true,
-            // title: {
-            //     text: "BULVRD Token Supply"
-            // },
-            backgroundColor: "transparent",
-            data: [{
-                type: "pie",
-                startAngle: 240,
-                yValueFormatString: "##0\"%\"",
-                indexLabel: "{label} {y}",
-                dataPoints: [
-                    {y: 4, label: "Pre-Sale"},
-                    {y: 19, label: "Token Sale"},
-                    {y: 21, label: "BULVRD Team"},
-                    {y: 1, label: "BUVLRD Co"},
-                    {y: 4, label: "Advisors"},
-                    {y: 51, label: "In-App Minting"}
-                ]
-            }]
-        });
-        chart.render();
-        
-        }
-</script>
-    <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!--Main-active-JS-->
-    <script src="js/main.js"></script>
-    <script src="js/particles.js"></script>
-    <script type="text/javascript">
-        particlesJS("particles-js")
-    </script>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
