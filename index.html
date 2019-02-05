@@ -82,7 +82,7 @@
                                     <li class="nav-item"><a class="nav-link" href="#pricing">Get Started</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#contact">Find Us</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="https://bulvrdapp.com/roadmap/index.html">Roadmap</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://bulvrdapp.com/roadmap/">Roadmap</a></li>
                                     <li class="nav-item"><a class="nav-link" href="https://github.com/BULVRD-Tech/BULVRD.Whitepaper/wiki">Whitepaper</a></li>
                                 </ul>
                                 <div class="sing-up-button d-lg-none">
@@ -142,13 +142,92 @@
                         <!-- Form End -->
                     </div>
                 </div>
+                <div class="col-12 col-md">
+                        <!-- <div >
+                            <span class="days"></span>
+                            <div class="smalltext">Token launch Event</div>
+                        </div>                   -->
+                        <div id="clockdiv">
+                                <div>
+                                  <span class="days"></span>
+                                  <div class="smalltext">Days</div>
+                                </div>
+                                <div>
+                                  <span class="hours"></span>
+                                  <div class="smalltext">Hours</div>
+                                </div>
+                                <div>
+                                  <span class="minutes"></span>
+                                  <div class="smalltext">Minutes</div>
+                                </div>
+                                <div>
+                                  <span class="seconds"></span>
+                                  <div class="smalltext">Seconds</div>
+                                </div>
+                              </div>
+                            </br>
+                        </br>
+                        <div class="get-start-area">
+                                <!-- Form Start -->
+                                <form action="https://bulvrdapp.com/token-launch-event" >
+                                    <!-- <input type="email" class="form-control email" placeholder="name@company.com"> -->
+                                    <input type="submit" class="submit" value="Token Launch Event">
+                                </form>
+                                <!-- Form End -->
+                            </div>
+                            <script id="setupClock">
+                                    function getTimeRemaining(endtime) {
+                              var t = Date.parse(endtime) - Date.parse(new Date());
+                              var seconds = Math.floor((t / 1000) % 60);
+                              var minutes = Math.floor((t / 1000 / 60) % 60);
+                              var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                              var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                              return {
+                                'total': t,
+                                'days': days,
+                                'hours': hours,
+                                'minutes': minutes,
+                                'seconds': seconds
+                              };
+                            }
+                            
+                            function initializeClock(id, endtime) {
+                              var clock = document.getElementById(id);
+                              var daysSpan = clock.querySelector('.days');
+                              var hoursSpan = clock.querySelector('.hours');
+                              var minutesSpan = clock.querySelector('.minutes');
+                              var secondsSpan = clock.querySelector('.seconds');
+                            
+                              function updateClock() {
+                                var t = getTimeRemaining(endtime);
+                            
+                                daysSpan.innerHTML = t.days;
+                                hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                                minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                                secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+                            
+                                if (t.total <= 0) {
+                                  clearInterval(timeinterval);
+                                }
+                              }
+                            
+                              updateClock();
+                              var timeinterval = setInterval(updateClock, 1000);
+                            }
+                            
+                            var deadline = new Date(Date.parse(new Date("2019-03-08")));
+                            initializeClock('clockdiv', deadline);
+                                </script>
+                </div>
             </div>
-            
         </div>
+
+    
         <!-- Welcome thumb -->
-        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+        <!-- <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
             <img src="img/bg-img/welcome-special.png" alt="">
-        </div>
+            
+        </div> -->
 
     </section>
 
@@ -493,10 +572,10 @@
                                                 <div class="col-lg-6 col-xl-5 ml-xl-auto">
                                                     <div class="special_description_content">
                                                         <h2>BULVRD Dashboard</h2>
-                                                        <p>The BULVRD dashboard is a streamlined dashboard system to track and use your BLVD tokens and earnings. Featuring integrations with Metamask, 0x, OpenSea, Coinbase, and Wyre for simple transactions.</p>
+                                                        <p>The BULVRD dashboard is a streamlined dashboard system to track and use your BLVD tokens and earnings. Featuring integrations with Metamask, 0x, OpenSea, Coinbase, and Wyre for simple transactions. BULVRD Dashboard will launch at the conclusion of the Token Launch Event.</p>
                                                         <div class="get-start-area">
                                                                 <form action="#app" >
-                                                                    <input type="submit" class="submit" value="Get The App">
+                                                                    <input type="submit" class="submit" value="Coming Soon!">
                                                                 </form>
                                                             </div>
                                                         </br>
@@ -505,6 +584,30 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="special_description_area mt-150">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                                                        <div class="special_description_content">
+                                                            <h2>BULVRD Local</h2>
+                                                            <p>BULVRD Local gives businesses and brands a new hyper local focused path to spreading awareness. BULVRD Local is powered by the BLVD token, and passes certain earnings on to users. </p>
+                                                            <div class="get-start-area">
+                                                                    <form action="https://bulvrdapp.com/local" >
+                                                                        <input type="submit" class="submit" value="Learn More">
+                                                                    </form>
+                                                                </div>
+                                                            </br>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                            <div class="special_description_img">
+                                                                <img src="img/bg-img/bulvrd_local.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
     </section>
     <!-- ***** Awesome Features End ***** -->
 
@@ -531,21 +634,9 @@
             <div class="row">
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-3 col-lg-3">
-                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-area">
-                            <h3><span class="counter">30</span></h3>
-                        </div>
-                        <div class="cool-facts-content">
-                            <i class="ion-wifi"></i>
-                            <p>Ways to <br> Earn</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Cool Fact-->
-                <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
                         <div class="counter-area">
-                            <h3><span class="counter">23</span></h3>
+                            <h3><span class="counter">32.5</span></h3>
                         </div>
                         <div class="cool-facts-content">
                             <i class="ion-trophy"></i>
@@ -553,6 +644,18 @@
                         </div>
                     </div>
                 </div>
+                <!-- Single Cool Fact-->
+                <div class="col-12 col-md-3 col-lg-3">
+                        <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="counter-area">
+                                <h3><span class="counter">30</span></h3>
+                            </div>
+                            <div class="cool-facts-content">
+                                <i class="ion-wifi"></i>
+                                <p>Ways to <br> Earn</p>
+                            </div>
+                        </div>
+                    </div>
                 <!-- Single Cool Fact-->
                 <div class="col-12 col-md-3 col-lg-3">
                     <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
@@ -664,7 +767,7 @@
                             <h5>Leveled Up</h5>
                         </div>
                         <div class="package-description">
-                            <p>Earn 200 tokens to begin staking</p>
+                            <p>Earn 1000 tokens to begin staking</p>
                             <p>Stake NFT assets on map</p>
                             <p>Now qualify to run a BULVRD Node</p>
                         </div>
@@ -706,9 +809,11 @@
                             <p>Location Token Drops</p>
                             <p>Stake NFTs</p>
                             <p>Stake as Node operator</p>
-                            <p>Location based map Advertising</p>
+                            <p>BULVRD Local Map Advertising</p>
                             <p>BULVRD Pro Subscription</p>
                             <p>BULVRD Digital Collectibles</p>
+                            <p>BULVRD Drive Events</p>
+                            <p>BULVRD DAO Governance Rights</p>
                         </div>
                         <!-- Plan Button  -->
                         <div class="plan-button">
@@ -795,7 +900,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                         <div class="single-team-member">
                             <div class="member-image">
-                                <img src="img/team-img/ic_launcher.png" alt="">
+                                <img src="img/team-img/ic_seare_kidane.png" alt="">
                                 <div class="team-hover-effects">
                                     <div class="team-social-icon">
                                         <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -921,25 +1026,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-3">
-                                <div class="single-team-member">
-                                    <div class="member-image">
-                                        <img src="img/team-img/ic_fbs.png" alt="">
-                                        <div class="team-hover-effects">
-                                            <div class="team-social-icon">
-                                                <!-- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="member-text">
-                                        <h4>FBStart</h4>
-                                        <p>Accelerate</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-12 col-md-6 col-lg-3">
                                 <div class="single-team-member">
                                     <div class="member-image">
@@ -959,24 +1046,23 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-3">
-                                <div class="single-team-member">
-                                    <div class="member-image">
-                                        <img src="img/team-img/ic_launcher.png" alt="">
-                                        <div class="team-hover-effects">
-                                            <div class="team-social-icon">
-                                                <a href="https://angel.co/bulvrdapp/jobs"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                    <div class="single-team-member">
+                                        <div class="member-image">
+                                            <img src="img/team-img/ic_launcher.png" alt="">
+                                            <div class="team-hover-effects">
+                                                    <div class="team-social-icon">
+                                                            <a href="https://angel.co/bulvrdapp/jobs"> <i class="fa fa-link" aria-hidden="true"></i></a>
+                                                        </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="member-text">
-                                        <h4>TBA</h4>
-                                        <p>Join Us!</p>
+                                        <div class="member-text">
+                                            <h4>TBA</h4>
+                                            <p>Join Us!</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                        </div>
         </div>
     </section>
     <!-- ***** Our Team Area End ***** -->
@@ -1010,7 +1096,7 @@
         </div>
         <!-- Foooter Text-->
         <div class="copyright-text">
-            <p>Copyright ©2018 BULVRD Inc</p>
+            <p>Copyright ©2019 BULVRD Inc</p>
         </div>
     </footer>
     <!-- ***** Footer Area Start ***** -->
@@ -1029,6 +1115,7 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+
 </body>
 
 </html>
